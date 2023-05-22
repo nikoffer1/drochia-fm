@@ -1,0 +1,74 @@
+body {
+  background-color: #E0F2F1; 
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  background-color: #00897B; 
+  color: #FFFFFF; 
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+.work-in-progress-image {
+  max-width: 100%;
+  height: auto;
+  margin: 5px 0;
+}
+
+.contact-info {
+  margin-top: 20px;
+}
+
+.contact-info a {
+  display: block;
+  color: #000000; /* Black */
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+.telegram-logo {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Telegram_logo.svg/2048px-Telegram_logo.svg.png");
+  background-size: cover;
+  margin-left: 5px;
+  vertical-align: middle;
+  transition: transform 0.3s;
+}
+
+.telegram-logo:hover {
+  transform: scale(1.1);
+}
+
+.github-link {
+  margin-top: px;
+}
+
+.github-logo {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-image: url("https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png");
+  background-size: cover;
+  margin-left: 5px;
+  vertical-align: middle;
+  transition: transform 0.3s;
+}
+
+.github-logo:hover {
+  transform: scale(1.1);
+}
